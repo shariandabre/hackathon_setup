@@ -68,7 +68,7 @@ export default function Page() {
           className="min-h-8 resize-none border-0 p-3 shadow-none focus-visible:ring-0"
         />
         <div className="flex items-center p-3 pt-0">
-          <Button type="submit" size="sm" className="ml-auto gap-1.5">
+          <Button type="submit" size="sm" className="ml-auto z-[9999] gap-1.5">
             Send Message
             <CornerDownLeft className="size-3.5" />
           </Button>
