@@ -70,7 +70,7 @@ export async function fetchFruits() {
   }
 }
 
-const genAI = new GoogleGenerativeAI("AIzaSyAcODqO3muGpih3AISgU4Dr7hZfFm3GWqU");
+const genAI = new GoogleGenerativeAI("AIzaSyCFnoLJvV1tbhuqjRmT2rV-y8QFMjcjsxQ");
 export async function askAi(prompt: string) {
   // For text-only input, use the gemini-pro model
   const model = genAI.getGenerativeModel({ model: "gemini-pro" });
